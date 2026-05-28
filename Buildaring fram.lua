@@ -5,7 +5,7 @@
 
 local Config_URL = "https://raw.githubusercontent.com/tunglinh-png/Rubu2k/refs/heads/main/Rubu2k.txt" 
 local File_Name = "EclipseKeyCache.txt" -- Tên file lưu trữ key trong thư mục workspace
-local New_Get_Key_Link = "https://link4sub.com/z6aPKgOLbn" -- Link get key tự động sao chép khi kích hoạt thành công
+local New_Get_Key_Link = "https://anotepad.com/notes/e47hx678" -- Link get key tự động sao chép khi kích hoạt thành công
 
 ---------------------------------------------------------
 -- HỆ THỐNG TỰ ĐỘNG TẢI DỮ LIỆU CHỦ
@@ -14,7 +14,7 @@ local HttpService = game:GetService("HttpService")
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 
-local fetchedLink = "https://link4sub.com/z6aPKgOLbn" -- Dự phòng cho nút GET KEY LINK ngoài giao diện
+local fetchedLink = "https://anotepad.com/notes/e47hx678" -- Dự phòng cho nút GET KEY LINK ngoài giao diện
 local fetchedKey = "tunglinhdz-tienxautrainhucac" -- Dự phòng
 
 local success, response = pcall(function()
